@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorful Portfolio</title>
+  <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1><span class="highlight">Welcome to</span> <span style="color: red;">Pradeepkumar </span><span style="color: #ffd700;">Portfolio</span></h1>
+      
+      <p>Frontend Developer | Creative Coder</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about" class="section about">
+    <h2>About Me</h2>
+    <p>
+      I am Pradeepkumar, a passionate Web Developer with expertise in HTML, CSS, JavaScript, React.js, Python, Django, and MySQL. With a strong foundation in both frontend and backend development, I specialize in building responsive, user-friendly, and dynamic web applications.
+
+I have experience working on projects that involve full-stack development, API integrations, and database management. I enjoy learning new technologies and continuously improving my skills to stay updated with the latest industry trends.
+
+My goal is to create efficient, scalable, and impactful web solutions that enhance user experiences and solve real-world problems.  
+  </section>
+
+  <section id="projects" class="section projects">
+    <h2>My Projects</h2>
+    <div id="project-list" class="project-grid"></div>
+  </section>
+
+  <section id="skills" class="section skills">
+    <h2>My Skills</h2>
+    <div class="skill-list">
+      <div class="skill">
+        <p>HTML</p>
+        <div class="skill-bar" data-skill="90%"></div>
+      </div>
+      <div class="skill">
+        <p>CSS</p>
+        <div class="skill-bar" data-skill="85%"></div>
+      </div>
+      <div class="skill">
+        <p>JavaScript</p>
+        <div class="skill-bar" data-skill="85%"></div>
+      </div>
+      <div class="skill">
+        <p>React.js</p>
+        <div class="skill-bar" data-skill="80%"></div>
+      </div>
+      <div class="skill">
+        <p>Python</p>
+        <div class="skill-bar" data-skill="90%"></div>
+      </div>
+      <div class="skill">
+        <p>MySQL</p>
+        <div class="skill-bar" data-skill="90%"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+    <p id="form-response"></p>
+  </section>
+
+  <footer>
+    <p>&copy; Created by Pradeep❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
